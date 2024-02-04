@@ -40,6 +40,8 @@ export interface DrawerSettings {
 	width?: string;
 	/** Drawer - Provide classes to override the height.*/
 	height?: string;
+	/** Drawer - Provide classes to override the zIndex.*/
+	zIndex?: string;
 
 	// -- Transitions ---
 	/** Define the Svelte transition animation duration.*/
